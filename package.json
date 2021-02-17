@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "cypress": "^6.5.0"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run": "cypress run",
+    "cy:dashboard": "cypress run --record --key 41590c33-e38f-4784-b654-01ef5f3493e8"
+  }
+}
